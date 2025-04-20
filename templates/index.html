@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sketch & Cartoon Studio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="clock" id="clock"></div>
+
+    <div class="container">
+        <h1 class="title">✨ Sketch & Cartoon Studio ✨</h1>
+        <p class="subtitle">Turn any image into a magical cartoon or artistic pencil sketch</p>
+
+        <form method="POST" enctype="multipart/form-data" class="upload-form">
+            <label for="image" class="upload-box" id="uploadLabel">
+                <input type="file" name="image" id="image" accept="image/*" required>
+                <span id="uploadText">📁 Choose your image</span>
+            </label>
+            <div id="file-confirm" class="confirm-text" style="display:none;">✅ Image Selected!</div>
+            <button type="submit" class="submit-btn">🎨 Transform It!</button>
+        </form>
+    </div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const time = now.toLocaleTimeString();
+            document.getElementById('clock').innerText = time;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        document.getElementById("image").addEventListener("change", function() {
+            document.getElementById("file-confirm").style.display = "block";
+        });
+    </script>
+</body>
+</html>

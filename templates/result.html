@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container result-container">
+        <h1 class="title">🎉 Your Image is Transformed!</h1>
+
+        {% if cartoon_image %}
+        <div class="image-box">
+            <h3>Cartoon Style</h3>
+            <img src="{{ url_for('static', filename=cartoon_image) }}" alt="Cartoon Image">
+            <a class="download-btn" href="{{ url_for('static', filename=cartoon_image) }}" download>⬇️ Download Cartoon</a>
+        </div>
+        {% endif %}
+
+        {% if sketch_image %}
+        <div class="image-box">
+            <h3>Pencil Sketch</h3>
+            <img src="{{ url_for('static', filename=sketch_image) }}" alt="Sketch Image">
+            <a class="download-btn" href="{{ url_for('static', filename=sketch_image) }}" download>⬇️ Download Sketch</a>
+        </div>
+        {% endif %}
+
+        <a class="submit-btn" href="/">🔙 Try Another Image</a>
+    </div>
+</body>
+</html>
