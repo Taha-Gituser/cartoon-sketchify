@@ -1,5 +1,11 @@
 
 # 🎨 Cartoon Sketchify
+[![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-blue)](https://flask.palletsprojects.com/)
+[![TensorFlow 1.x](https://img.shields.io/badge/TensorFlow-1.x-orange)](https://www.tensorflow.org/)
+[![Python](https://img.shields.io/badge/Python-3.10-green)](https://www.python.org/)
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
+[![License](https://img.shields.io/badge/License-MIT-lightgrey)]()
+
 
 Transform your real-world photos into:
 - 🧑‍🎨 **Ghibli-Style Cartoon Images**
