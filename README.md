@@ -1,31 +1,31 @@
 
 # 🎨 Cartoon Sketchify
 
-**Cartoon Sketchify** is an AI-powered web app that turns your real-world photos into:
+Transform your real-world photos into:
 - 🧑‍🎨 **Ghibli-Style Cartoon Images**
 - ✏️ **Pencil Sketches**
 
-All using **Digital Image Processing (DIP)** techniques and a **White-box Cartoonization deep model**!
+All using **Digital Image Processing (DIP)** and **AI Deep Models** – running locally on your machine with blazing speed! 🚀
 
-> 🚀 Final Year College Project (DIP + AI + Flask)
+> 🎯 Final Year College Project (Digital Image Processing + AI + Flask)
 
 ---
 
 ## 🌟 Key Features
 
-- Upload any real-world image (JPG, PNG, etc.)
-- Instant cartoonized version (Anime / Ghibli style)
-- Instant black-and-white pencil sketch version
-- Stylish, fully responsive frontend
-- Ready-to-run Flask backend
-- No internet needed (runs locally!)
+- 🚀 Upload any real-world image (JPG, PNG, JPEG)
+- 🎨 Get Instant Cartoonized Ghibli-style output
+- ✏️ Get Instant Pencil Sketch output (pure black & white)
+- 📱 Stylish, fully responsive frontend (mobile + desktop)
+- 🖥️ Fast local execution with Flask (no internet needed)
+- 🎯 High-quality outputs using Deep Learning + OpenCV
 
 ---
 
 ## 🖼️ Project Preview
 
-| Upload Image Page | Cartoon + Sketch Output |
-|-------------------|-------------------------|
+| 📤 Upload Image Page | 🎨 Cartoon + ✏️ Sketch Output |
+|:--------------------:|:----------------------------:|
 | ![](static/samples/upload.png) | ![](static/samples/output.png) |
 
 ---
@@ -36,18 +36,18 @@ All using **Digital Image Processing (DIP)** techniques and a **White-box Cartoo
 |--------------------|------------------------------------------|
 | **OpenCV**         | Image preprocessing & sketch generation |
 | **TensorFlow 1.x** | Cartoonization model inference          |
-| **tf-slim**        | U-Net generator layers                  |
+| **tf-slim**        | U-Net generator architecture            |
 | **Flask**          | Web server and routing                  |
-| **HTML + CSS**     | Stylish, responsive frontend            |
-| **Guided Filter**  | Smoothing cartoon outputs               |
-| **Gaussian Blur**  | Blur for better pencil sketches         |
-| **Image Inversion**| Sketch pipeline with inverted blurring  |
+| **HTML + CSS**     | Beautiful, responsive frontend styling  |
+| **Guided Filter**  | Smooth cartoon output                  |
+| **Gaussian Blur**  | Enhance pencil sketch                  |
+| **Image Inversion**| Sketch pipeline with blurring magic     |
 
 ---
 
 ## ⚙️ How to Set Up Locally
 
-1. **Clone the repository**
+1. **Clone this repository**
 
 ```bash
 git clone https://github.com/Taha-Gituser/cartoon-sketchify.git
@@ -58,7 +58,8 @@ cd cartoon-sketchify
 
 ```bash
 python -m venv venv
-venv\Scripts\activate    # (on Windows)
+# Windows
+venv\Scripts\activate
 ```
 
 3. **Install all dependencies**
@@ -75,7 +76,9 @@ python app.py
 
 5. **Open the app in your browser**
 
-Visit [http://127.0.0.1:5000](http://127.0.0.1:5000)
+```
+http://127.0.0.1:5000
+```
 
 ---
 
@@ -83,31 +86,32 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
 ```
 📂 cartoon-sketchify/
-├── app.py                   # Flask backend (Main file)
-├── requirements.txt         # Dependency list
+├── app.py                   # Flask backend (Main controller)
+├── requirements.txt         # Python dependencies
 ├── static/
-│   ├── style.css             # Custom CSS styles
-│   ├── results/              # Generated outputs (cartoon + sketch)
+│   ├── style.css             # Custom frontend styles
+│   ├── results/              # Generated cartoon/sketch outputs
 │   └── uploads/              # Uploaded input images
 ├── templates/
 │   ├── index.html            # Upload page
 │   └── result.html           # Result display page
-├── temp_input/               # Temporary folder for cartoonizer
-├── test_code/                # Cartoonization model code
+├── temp_input/               # Temporary working folder
+├── test_code/                # Cartoonization deep model code
 │   ├── cartoonize.py
 │   ├── network.py
 │   ├── guided_filter.py
-│   ├── saved_models/         # Pretrained model checkpoint
+│   ├── saved_models/         # Pretrained model checkpoints
 ```
 
 ---
 
-## 🙌 Made By
+## 🙌 Made With Love ❤️
 
-Taha | Computer Science Engineering (CSE)  
-Guided by: [White-box Cartoonization - Wang et al., CVPR 2020]
+Developed independently by [**Taha**](https://github.com/Taha-Gituser)  
+Computer Science Engineering (CSE) 🎓
 
 ---
 
-## 🌟 Star this repo if you like the project!
+## 🌟 If you love it, don't forget to ⭐ Star this repo!
 
+---
