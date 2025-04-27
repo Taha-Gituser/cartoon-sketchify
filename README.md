@@ -1,5 +1,5 @@
 
-# 🎨 Cartoon Sketchify
+#  Cartoon Sketchify
 [![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-blue)](https://flask.palletsprojects.com/)
 [![TensorFlow 1.x](https://img.shields.io/badge/TensorFlow-1.x-orange)](https://www.tensorflow.org/)
 [![Python](https://img.shields.io/badge/Python-3.10-green)](https://www.python.org/)
@@ -8,35 +8,35 @@
 
 
 Transform your real-world photos into:
-- 🧑‍🎨 **Ghibli-Style Cartoon Images**
-- ✏️ **Pencil Sketches**
+-  **Ghibli-Style Cartoon Images**
+-  **Pencil Sketches**
 
 All using **Digital Image Processing (DIP)** and **AI Deep Models** – running locally on your machine with blazing speed! 🚀
 
-> 🎯 Final Year College Project (Digital Image Processing + AI + Flask)
+>  Final Year College Project (Digital Image Processing + AI + Flask)
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- 🚀 Upload any real-world image (JPG, PNG, JPEG)
-- 🎨 Get Instant Cartoonized Ghibli-style output
-- ✏️ Get Instant Pencil Sketch output (pure black & white)
-- 📱 Stylish, fully responsive frontend (mobile + desktop)
-- 🖥️ Fast local execution with Flask (no internet needed)
-- 🎯 High-quality outputs using Deep Learning + OpenCV
+-  Upload any real-world image (JPG, PNG, JPEG)
+-  Get Instant Cartoonized Ghibli-style output
+-  Get Instant Pencil Sketch output (pure black & white)
+-  Stylish, fully responsive frontend (mobile + desktop)
+-  Fast local execution with Flask (no internet needed)
+-  High-quality outputs using Deep Learning + OpenCV
 
 ---
 
-## 🖼️ Project Preview
+## 🖼 Project Preview
 
-| 📤 Upload Image Page | 🎨 Cartoon + ✏️ Sketch Output |
+|  Upload Image Page |  Cartoon +  Sketch Output |
 |:--------------------:|:----------------------------:|
 | ![](static/samples/upload.png) | ![](static/samples/output.png) |
 
 ---
 
-## 🧠 Technologies & Methods Used
+##  Technologies & Methods Used
 
 | Technology         | Purpose                                  |
 |--------------------|------------------------------------------|
@@ -111,7 +111,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🙌 Made With Love ❤️
+##  Made by
 
 Developed independently by [**Taha**](https://github.com/Taha-Gituser)  
 Computer Science Engineering (CSE) 🎓
