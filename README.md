@@ -13,7 +13,6 @@ Transform your real-world photos into:
 
 All using **Digital Image Processing (DIP)** and **AI Deep Models** – running locally on your machine with blazing speed! 🚀
 
->  Final Year College Project (Digital Image Processing + AI + Flask)
 
 ---
 
